@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testngParallelExecution.Class4">
+        <methods>
+          <include name="gujratTitans"/>
+        </methods>
+      </class> <!-- testngParallelExecution.Class4 -->
+      <class name="testngParallelExecution.Class1">
+        <methods>
+          <include name="mumbaiIndians"/>
+        </methods>
+      </class> <!-- testngParallelExecution.Class1 -->
+      <class name="testngParallelExecution.Class3">
+        <methods>
+          <include name="royalChallengersBanglore"/>
+        </methods>
+      </class> <!-- testngParallelExecution.Class3 -->
+      <class name="testngParallelExecution.Class2">
+        <methods>
+          <include name="chennaiSuperKings"/>
+        </methods>
+      </class> <!-- testngParallelExecution.Class2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
