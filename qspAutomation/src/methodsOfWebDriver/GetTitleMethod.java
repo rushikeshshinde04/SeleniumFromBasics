@@ -14,6 +14,7 @@ public class GetTitleMethod {
 		Thread.sleep(5000);
 		String titleOfTheFirstPage = driver.getTitle();
 		System.out.println(titleOfTheFirstPage);
+		
 	}
 
 }
